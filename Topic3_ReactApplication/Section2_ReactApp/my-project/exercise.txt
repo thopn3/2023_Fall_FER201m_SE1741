@@ -1,5 +1,5 @@
 Yêu cầu:
-Viết 1 component đặt tên là Category gồm có 1 property nhận dữ liệu là 1 mảng gồm:
+Viết 1 component đặt tên là Category gồm có 1 property nhận dữ liệu là 1 mảng cac Category gồm:
     id:int
     name: String
 

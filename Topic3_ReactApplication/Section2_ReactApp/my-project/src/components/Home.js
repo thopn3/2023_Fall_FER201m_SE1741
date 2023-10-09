@@ -1,10 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-export default function Category(){
+export default function Home(){
     return (
         <Container>
             <Row>
-                <Col>Category page</Col>
+                <Col>Admin home page</Col>
             </Row>
         </Container>
     )

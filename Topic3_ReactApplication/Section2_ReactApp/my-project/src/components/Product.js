@@ -1,28 +1,11 @@
-// Định nghĩa 1 function Component
+import { Col, Container, Row } from "react-bootstrap";
 
-function Product({data}){
+export default function Product(){
     return (
-        <div className="item">
-            <h2 className="item-title">List of Products</h2>
-            <table border={1}>
-                <thead>
-                    <tr>
-                        <th>ID</th><th>Name</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        data.map(({id, name}) => (
-                            <tr>
-                                <td>{id}</td>
-                                <td>{name}</td>
-                            </tr>
-                        ))
-                    }
-                </tbody>
-            </table>
-        </div>
+        <Container>
+            <Row>
+                <Col>Product page</Col>
+            </Row>
+        </Container>
     )
 }
-
-export default Product
