@@ -1,6 +1,6 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import { Col, Container, Row } from 'react-bootstrap'
-import {Home, Product, Category} from './components/Index'
+import {Home, Product, Category, CreateProduct} from './components/Index'
 
 // function Component
 function App() {
@@ -25,6 +25,7 @@ function App() {
               <Route path='/' element={<Home />} />  {/** http://localhost:3000/ */}
               <Route path='/product' element={<Product />} /> {/** http://localhost:3000/prduct */}
               <Route path='/category' element={<Category />} /> {/** http://localhost:3000/category */}
+              <Route path='/product/create' element={<CreateProduct/>}/>
             </Routes>
           </Col>
         </Row>
